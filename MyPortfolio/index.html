@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zaid's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(8, 1, 47);
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 90px;
+      background-color: rgb(4, 8, 58);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      color: blueviolet;
+    }
+
+    main hr {
+      border: 0;
+      background-color: #a9b7f1;
+      height: 1px;
+      margin: 40px 84px;
+    }
+
+    .left {
+      font-size: 32px;
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 100px 0px;
+    }
+
+    .firstSection>div {
+      width: 30%;
+    }
+
+    .leftSection {
+      font-size: 25px;
+      margin: 80px;
+    }
+
+    .rightSection img {
+      width: 79%;
+      margin: 35px 50px;
+    }
+
+    .purple {
+      color: rgba(223, 2, 223, 0.475);
+      font-size: 25px;
+    }
+
+    .grey-text {
+      color: blueviolet;
+    }
+
+    #element {
+      color: rgba(223, 2, 223, 0.475);
+    }
+
+    .secondSection {
+      max-width: 75vw;
+      margin: auto;
+      height: 80vh;
+    }
+
+    .secondSection .box {
+      background-color: white;
+      height: 2px;
+      width: 60vw;
+      margin: 80px 0;
+      display: flex;
+    }
+
+    .secondSection .vertical {
+      height: 92px;
+      width: 1px;
+      background-color: white;
+      margin: 0 100px;
+    }
+
+    .vertical-img {
+      width: 40px;
+      position: relative;
+      top: -52px;
+      left: -25px;
+    }
+
+    .vertical-html {
+      position: relative;
+      top: -41px;
+      left: 10px;
+      width: 200px;
+    }
+
+    .vertical-desc {
+      position: relative;
+      width: 180px;
+      color: grey;
+      font-size: 12px;
+      left: 12px;
+    }
+
+    .vertical-Node {
+      position: relative;
+      top: 13px;
+      left: 10px;
+      width: 200px;
+    }
+    .footer{
+      display: flex;
+      background-color:#161523;
+      padding:  80px;
+    }
+    .footer {
+      position: relative;
+    justify-content: space-evenly;
+    
+
+    }
+    .footer div ul li {
+      list-style: none;
+      cursor: pointer;
+      
+    }
+    .footer div ul li a{
+      text-decoration: none;
+      color: whitesmoke;
+    }
+    .footer div ul li a:hover {
+      color: rgb(143, 23, 186);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Zaid's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, I am <span class="purple">Zaid</span>
+        <div>and I am a Web Developer.</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="zaid.jpg" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section class="secondSection">
+      <span class="grey-text">Work I have done so far</span>
+      <h1>Work Experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="vertical-img" src="htmllogo.png" alt="" />
+          <div class="vertical-html">HTML Developer</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            placeat. Repudiandae exercitationem accusantium nulla vero
+            nesciunt amet, rerum necessitatibus sint veritatis saepe sapiente
+            sequi eius, molestias nostrum nemo pariatur ab.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="vertical-img" src="CSS1logo.png" alt="" />
+          <div class="vertical-html">CSS Developer</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            placeat. Repudiandae exercitationem accusantium nulla vero
+            nesciunt amet, rerum necessitatibus sint veritatis saepe sapiente
+            sequi eius, molestias nostrum nemo pariatur ab.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="vertical-img" src="jslogo.png" alt="" />
+          <div class="vertical-html">Javascript Developer</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            placeat. Repudiandae exercitationem accusantium nulla vero
+            nesciunt amet, rerum necessitatibus sint veritatis saepe sapiente
+            sequi eius, molestias nostrum nemo pariatur ab.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="vertical-img" src="javalogo.png" alt="" />
+          <div class="vertical-html">Java Developer</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            placeat. Repudiandae exercitationem accusantium nulla vero
+            nesciunt amet, rerum necessitatibus sint veritatis saepe sapiente
+            sequi eius, molestias nostrum nemo pariatur ab.
+          </div>
+        </div>
+
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        Zaid's Developer
+      </div>
+      <div class="footer-second">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-third">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-fourth">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Contact Us</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Web Developer", "Teacher", "Web Designer"],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
